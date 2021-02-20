@@ -36,5 +36,13 @@ help:
 	@echo '${MESSAGE} Makefile for ${PROJECT}'
 	@echo ''
 	@echo 'Usage:'
+	@echo '    setup                     install requirements'
 	@echo ''
 	@make terragrunt.help
+
+
+setup:
+	@echo "=====> install packages..."
+	@cp -rf provision/git/hooks/prepare-commit-msg .git/hooks/
+	make yarn.setup
+	@echo ${MESSAGE_HAPPY}
