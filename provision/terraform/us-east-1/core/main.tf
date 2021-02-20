@@ -1,4 +1,4 @@
-  module "main" {
+  module "repository_example" {
     source = "hadenlabs/repository/github"
     version = "0.4.0"
 
