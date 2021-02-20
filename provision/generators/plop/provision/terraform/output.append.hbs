@@ -1,0 +1,4 @@
+output "repository_{{snakeCase terraformRepository}}_git_clone_url" {
+  description = "show url git of {{sentenceCase terraformRepository}}"
+  value       = module.repository_{{snakeCase terraformRepository}}.instance.git_clone_url
+}

@@ -1,0 +1,10 @@
+module "repository_{{snakeCase terraformRepository}}" {
+  providers = {
+    github = github
+  }
+  source      = "hadenlabs/repository/github"
+  version     = "0.4.0"
+  name        = "{{dashCase terraformRepository}}"
+  description = "{{sentenceCase terraformRepository}}"
+  visibility  = "public"
+}

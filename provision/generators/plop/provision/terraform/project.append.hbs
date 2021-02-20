@@ -1,0 +1,11 @@
+module "project_{{snakeCase terraformRepository}}" {
+  providers = {
+    github = github
+  }
+
+  source          = "hadenlabs/project/github"
+  version         = "0.2.1"
+  name            = "{{dashCase terraformRepository}}"
+  body            = "{{sentenceCase terraformRepository}} for luismayta."
+  repository_name = module.repository_{{snakeCase terraformRepository}}.instance.name
+}
