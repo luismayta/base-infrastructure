@@ -32,8 +32,8 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@types/jest": "^27.0.3",
     "@types/mocha": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
