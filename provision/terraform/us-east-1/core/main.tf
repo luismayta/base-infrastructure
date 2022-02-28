@@ -1,6 +1,6 @@
   module "repository_example" {
     source = "hadenlabs/repository/github"
-    version = "0.12.0"
+    version = "1.0.0"
 
     providers = {
       github = github
