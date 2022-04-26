@@ -4791,10 +4791,10 @@ node-gyp@^9.0.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-plop@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.30.0.tgz#413581d95ff21f043ec4c373fcacb0f1555ae600"
-  integrity sha512-5w9+jWoy9OtMm3qRmHgL2z/3L5VL3RhEegKkKC4tA1IIjG3aXf8Ee/8wdgU9qXyt1yDfPWI9Tan1rHpXAp0ZnA==
+node-plop@^0.30.0, node-plop@^0.30.1:
+  version "0.30.1"
+  resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.30.1.tgz#1daf625da72e076a60901d44a9d064833d3b0a14"
+  integrity sha512-+IOrQ1KQuOOeiLaoMzjr6ZmgWyx7gTHuLw/WD6Pqfrb6T9nOpOl76iZwF3M0Dw29Qgk6k17VF7aUULwuQS53Ig==
   dependencies:
     "@types/inquirer" "^8.1.3"
     change-case "^4.1.2"
